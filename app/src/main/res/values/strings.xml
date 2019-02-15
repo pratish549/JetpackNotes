@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Jetpack notes</string>
+    <string name="delete_word_preamble">Deleting Note :</string>
+    <string name="losem">By now, we have pretty much achieved what we need. But details matter, and it shows we care about our user experience. Did you notice the strikingly bright status bar when the Activity is in peek mode? Its color follows colorPrimary attribute set in our theme. Easy, just set it to some dark color! But it will leave us with a dark status bar when the Activity fully expands.
+    Let’s make it dynamic: we initially dim status bar when Activity first peek, undim it only when fully expanded, and dim again otherwise. Theming status bar is not supported pre-Lollipop so we can safely ignore it if device runs Kitkat or below.
+    </string>
+</resources>
